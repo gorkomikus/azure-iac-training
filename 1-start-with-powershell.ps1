@@ -1,5 +1,5 @@
 # Connect
-Connect-AzAccount
+Connect-AzAccount -Tenant 'ID'
 
 # get the subscription
 Get-AzSubscription

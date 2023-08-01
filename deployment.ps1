@@ -6,4 +6,4 @@ $rg = @{
 New-AzResourceGroup @rg
 
 # Deploy
-New-AzResourceGroupDeployment -ResourceGroupName rg-training-name -TemplateFile main.bicep #-WhatIf
+New-AzResourceGroupDeployment -ResourceGroupName rg-training-name -TemplateFile main.bicep -WhatIf
