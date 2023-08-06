@@ -1,6 +1,6 @@
 # Create resource group
 $rg = @{
-    Name = 'rg-training-name'
+    Name = 'rg-training-quirijn'
     Location = 'West Europe'
 }
 New-AzResourceGroup @rg
